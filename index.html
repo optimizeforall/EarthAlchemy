@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earth Alchemy Tea - Crafting Earth's Healthiest Blends</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --earth-brown: #8B7355;
+            --light-brown: #D2B48C;
+            --moringa-green: #4CAF50;
+        }
+
+        body {
+            background-color: #FAF3E8;
+        }
+
+        .earth-brown {
+            color: var(--earth-brown);
+        }
+
+        .bg-earth-brown {
+            background-color: var(--earth-brown);
+        }
+
+        .border-earth-brown {
+            border-color: var(--earth-brown);
+        }
+
+        .moringa-green {
+            color: var(--moringa-green);
+        }
+
+        .hover-scale {
+            transition: transform 0.2s;
+        }
+
+        .hover-scale:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="min-h-screen flex flex-col">
+        <header class="py-6">
+            <div class="max-w-4xl mx-auto px-4">
+                <h1 class="text-5xl font-bold earth-brown text-center">Earth Alchemy Tea</h1>
+                <p class="text-xl text-center mt-4 text-gray-700">Crafting Earth's Healthiest Blends</p>
+            </div>
+        </header>
+
+        <main class="flex-grow max-w-4xl mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+                <div class="bg-white p-8 rounded-lg shadow-lg border-2 border-earth-brown hover-scale">
+                    <h2 class="text-2xl font-bold earth-brown mb-4">Our Mission</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        We blend ancient wisdom with modern science to create the most potent, health-enhancing tea
+                        blends on Earth. Every ingredient is carefully selected for maximum nutritional impact and
+                        perfect harmony.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-lg shadow-lg border-2 border-earth-brown hover-scale">
+                    <h2 class="text-2xl font-bold earth-brown mb-4">Our Promise</h2>
+                    <p class="text-gray-700 leading-relaxed">
+                        100% organic ingredients, ethically sourced, and precisely blended to deliver powerful health
+                        benefits. No fillers, no compromises – just pure, potent botanicals working in perfect synergy.
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold earth-brown mb-8">Featured Blend</h2>
+                <a href="/earthteanutrition"
+                    class="inline-block bg-earth-brown text-white px-8 py-4 rounded-lg hover:opacity-90 transition-opacity">
+                    Explore Our Earth Tea →
+                </a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+                <div class="text-center">
+                    <div class="text-4xl earth-brown mb-2">100%</div>
+                    <div class="text-gray-700">Organic Ingredients</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl earth-brown mb-2">9</div>
+                    <div class="text-gray-700">Powerful Botanicals</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl earth-brown mb-2">1</div>
+                    <div class="text-gray-700">Perfect Blend</div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="py-6 text-center text-earth-brown">
+            <p>&copy; 2024 Earth Alchemy Tea. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
